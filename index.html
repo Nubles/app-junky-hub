@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>App Junky Hub</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Daily games and useful apps</p>
+          <h1>App Junky Hub</h1>
+          <p class="lede">
+            A static catalog of functional prototypes, polish candidates, and release-ready experiments from the App Junky factory.
+          </p>
+        </div>
+        <section class="stats" aria-label="Project stats">
+          <article class="stat">
+            <span class="stat-value" id="stat-total">0</span>
+            <span class="stat-label">Total projects</span>
+          </article>
+          <article class="stat">
+            <span class="stat-value" id="stat-games">0</span>
+            <span class="stat-label">Games</span>
+          </article>
+          <article class="stat">
+            <span class="stat-value" id="stat-tools">0</span>
+            <span class="stat-label">Tools</span>
+          </article>
+        </section>
+      </header>
+
+      <nav class="filters" aria-label="Project filters">
+        <button class="filter-button is-active" type="button" data-filter="all">All</button>
+        <button class="filter-button" type="button" data-filter="game">Games</button>
+        <button class="filter-button" type="button" data-filter="tool">Tools</button>
+        <button class="filter-button" type="button" data-filter="Prototype">Prototypes</button>
+        <button class="filter-button" type="button" data-filter="Polish Candidate">Polish Candidates</button>
+      </nav>
+
+      <section class="project-grid" id="project-grid" aria-live="polite"></section>
+    </main>
+
+    <script src="./projects.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
