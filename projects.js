@@ -22,5 +22,17 @@ window.APP_JUNKY_PROJECTS = [
     repoUrl: "https://github.com/Nubles/app-junky-signal-garden",
     liveUrl: "https://nubles.github.io/app-junky-signal-garden/",
     accent: "#fbbf24"
+  },
+  {
+    title: "Decision Loom",
+    date: "2026-06-05",
+    type: "tool",
+    status: "Prototype",
+    summary: "A weighted decision matrix for ranking options by criteria, scores, and a copyable summary.",
+    tags: ["decision", "planning", "daily tool"],
+    localPath: "../projects/2026-06-05-decision-loom/index.html",
+    repoUrl: "",
+    liveUrl: "",
+    accent: "#115e59"
   }
 ];
