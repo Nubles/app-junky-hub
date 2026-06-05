@@ -34,5 +34,17 @@ window.APP_JUNKY_PROJECTS = [
     repoUrl: "https://github.com/Nubles/app-junky-decision-loom",
     liveUrl: "https://nubles.github.io/app-junky-decision-loom/",
     accent: "#115e59"
+  },
+  {
+    title: "Prism Relay",
+    date: "2026-06-05",
+    type: "game",
+    status: "Prototype",
+    summary: "A compact mirror-rotation puzzle about routing a beam from emitter to receiver.",
+    tags: ["puzzle", "logic", "daily game"],
+    localPath: "../projects/2026-06-05-prism-relay/index.html",
+    repoUrl: "",
+    liveUrl: "",
+    accent: "#2563eb"
   }
 ];
