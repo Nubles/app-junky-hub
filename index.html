@@ -8,42 +8,67 @@
   </head>
   <body>
     <main class="shell">
-      <header class="hero">
+      <header class="launch-board">
         <div class="hero-copy">
-          <p class="eyebrow">Daily games and useful apps</p>
-          <h1>App Junky Hub</h1>
-          <p class="lede">
-            A static catalog of functional prototypes, polish candidates, and release-ready experiments from the App Junky factory.
-          </p>
+          <a class="skip-link" href="#project-grid">Skip to projects</a>
+          <span class="brand-lockup">App Junky</span>
+          <h1>Daily launch board for useful apps and tiny games.</h1>
+          <p class="lede">Every card links to a working GitHub Pages prototype, a source repo, or the next repo that needs to be published.</p>
+          <div class="hero-actions" aria-label="Primary links">
+            <a class="action-button primary" href="#project-grid">Browse projects</a>
+            <a class="action-button" href="https://github.com/Nubles/app-junky-hub">Hub repo</a>
+          </div>
         </div>
-        <section class="stats" aria-label="Project stats">
-          <article class="stat">
-            <span class="stat-value" id="stat-total">0</span>
-            <span class="stat-label">Total projects</span>
-          </article>
-          <article class="stat">
-            <span class="stat-value" id="stat-games">0</span>
-            <span class="stat-label">Games</span>
-          </article>
-          <article class="stat">
-            <span class="stat-value" id="stat-tools">0</span>
-            <span class="stat-label">Tools</span>
-          </article>
+
+        <section class="mission-panel" aria-label="Hub status">
+          <div class="mission-topline">
+            <span>Factory status</span>
+            <strong>Active</strong>
+          </div>
+          <p id="latest-project">Latest launch loading...</p>
+          <div class="stats" aria-label="Project stats">
+            <article class="stat">
+              <span class="stat-value" id="stat-total">0</span>
+              <span class="stat-label">Total</span>
+            </article>
+            <article class="stat">
+              <span class="stat-value" id="stat-live">0</span>
+              <span class="stat-label">Live</span>
+            </article>
+            <article class="stat">
+              <span class="stat-value" id="stat-needs-repo">0</span>
+              <span class="stat-label">Needs repo</span>
+            </article>
+            <article class="stat">
+              <span class="stat-value" id="stat-games">0</span>
+              <span class="stat-label">Games</span>
+            </article>
+            <article class="stat">
+              <span class="stat-value" id="stat-tools">0</span>
+              <span class="stat-label">Tools</span>
+            </article>
+          </div>
         </section>
       </header>
 
-      <nav class="filters" aria-label="Project filters">
-        <button class="filter-button is-active" type="button" data-filter="all">All</button>
-        <button class="filter-button" type="button" data-filter="game">Games</button>
-        <button class="filter-button" type="button" data-filter="tool">Tools</button>
-        <button class="filter-button" type="button" data-filter="Prototype">Prototypes</button>
-        <button class="filter-button" type="button" data-filter="Polish Candidate">Polish Candidates</button>
-      </nav>
+      <section class="catalog-bar" aria-label="Catalog controls">
+        <div>
+          <h2>Prototype catalog</h2>
+          <p id="catalog-count">Showing all projects.</p>
+        </div>
+        <nav class="filters" aria-label="Project filters">
+          <button class="filter-button is-active" type="button" data-filter="all">All</button>
+          <button class="filter-button" type="button" data-filter="game">Games</button>
+          <button class="filter-button" type="button" data-filter="tool">Tools</button>
+          <button class="filter-button" type="button" data-filter="live">Live</button>
+          <button class="filter-button" type="button" data-filter="needs-repo">Needs repo</button>
+        </nav>
+      </section>
 
       <section class="project-grid" id="project-grid" aria-live="polite"></section>
     </main>
 
-    <script src="./projects.js?v=2026-06-05"></script>
-    <script src="./app.js"></script>
+    <script src="./projects.js?v=2026-06-05-polish"></script>
+    <script src="./app.js?v=2026-06-05-polish"></script>
   </body>
 </html>
