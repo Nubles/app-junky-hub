@@ -43,8 +43,8 @@ window.APP_JUNKY_PROJECTS = [
     summary: "A compact mirror-rotation puzzle about routing a beam from emitter to receiver.",
     tags: ["puzzle", "logic", "daily game"],
     localPath: "../projects/2026-06-05-prism-relay/index.html",
-    repoUrl: "",
-    liveUrl: "",
+    repoUrl: "https://github.com/Nubles/app-junky-prism-relay",
+    liveUrl: "https://nubles.github.io/app-junky-prism-relay/",
     accent: "#2563eb"
   }
 ];
