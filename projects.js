@@ -55,8 +55,8 @@ window.APP_JUNKY_PROJECTS = [
     summary: "A release-readiness checklist that turns App Junky prototypes into GitHub Pages launches.",
     tags: ["release", "checklist", "daily tool"],
     localPath: "../projects/2026-06-05-launch-lantern/index.html",
-    repoUrl: "",
-    liveUrl: "",
+    repoUrl: "https://github.com/Nubles/app-junky-launch-lantern",
+    liveUrl: "https://nubles.github.io/app-junky-launch-lantern/",
     accent: "#0f766e"
   }
 ];
