@@ -19,8 +19,8 @@ window.APP_JUNKY_PROJECTS = [
     summary: "A compact arcade game about delivering colored signal seeds to matching beacons before charge runs out.",
     tags: ["arcade", "canvas", "daily game"],
     localPath: "../projects/2026-06-05-signal-garden/index.html",
-    repoUrl: "",
-    liveUrl: "",
+    repoUrl: "https://github.com/Nubles/app-junky-signal-garden",
+    liveUrl: "https://nubles.github.io/app-junky-signal-garden/",
     accent: "#fbbf24"
   }
 ];
