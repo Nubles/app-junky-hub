@@ -10,5 +10,17 @@ window.APP_JUNKY_PROJECTS = [
     repoUrl: "https://github.com/Nubles/app-junky-focus-forge",
     liveUrl: "https://nubles.github.io/app-junky-focus-forge/",
     accent: "#0f766e"
+  },
+  {
+    title: "Signal Garden",
+    date: "2026-06-05",
+    type: "game",
+    status: "Prototype",
+    summary: "A compact arcade game about delivering colored signal seeds to matching beacons before charge runs out.",
+    tags: ["arcade", "canvas", "daily game"],
+    localPath: "../projects/2026-06-05-signal-garden/index.html",
+    repoUrl: "",
+    liveUrl: "",
+    accent: "#fbbf24"
   }
 ];
