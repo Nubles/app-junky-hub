@@ -46,5 +46,17 @@ window.APP_JUNKY_PROJECTS = [
     repoUrl: "https://github.com/Nubles/app-junky-prism-relay",
     liveUrl: "https://nubles.github.io/app-junky-prism-relay/",
     accent: "#2563eb"
+  },
+  {
+    title: "Launch Lantern",
+    date: "2026-06-05",
+    type: "tool",
+    status: "Prototype",
+    summary: "A release-readiness checklist that turns App Junky prototypes into GitHub Pages launches.",
+    tags: ["release", "checklist", "daily tool"],
+    localPath: "../projects/2026-06-05-launch-lantern/index.html",
+    repoUrl: "",
+    liveUrl: "",
+    accent: "#0f766e"
   }
 ];
