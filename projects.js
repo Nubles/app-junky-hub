@@ -58,5 +58,17 @@ window.APP_JUNKY_PROJECTS = [
     repoUrl: "https://github.com/Nubles/app-junky-launch-lantern",
     liveUrl: "https://nubles.github.io/app-junky-launch-lantern/",
     accent: "#0f766e"
+  },
+  {
+    title: "Orbit Orchard",
+    date: "2026-06-06",
+    type: "game",
+    status: "Prototype",
+    summary: "A compact timing game about catching fruit as it drifts through orbital lanes.",
+    tags: ["arcade", "timing", "daily game"],
+    localPath: "../projects/2026-06-06-orbit-orchard/index.html",
+    repoUrl: "",
+    liveUrl: "",
+    accent: "#34d399"
   }
 ];
