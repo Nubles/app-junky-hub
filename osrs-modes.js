@@ -58,5 +58,15 @@ window.APP_JUNKY_OSRS_MODES = [
     bookkeeping: "Medium",
     appIdeas: ["oath builder", "penalty table", "ruleset share card"],
     accent: "#7a4f9a"
+  },
+  {
+    name: "Favorbound",
+    category: "Faction",
+    summary: "Progress comes from earning loyalty with in-world factions rather than freely choosing the next account goal.",
+    coreRule: "Pick or roll a faction, then only use items, quests, regions, bosses, and skills that fit that faction until a new alliance is earned.",
+    difficulty: "Strong prototype",
+    bookkeeping: "Medium",
+    appIdeas: ["faction rule builder", "alliance unlock map", "allowed-content list"],
+    accent: "#6f5b2f"
   }
 ];
