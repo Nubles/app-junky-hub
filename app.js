@@ -1,5 +1,10 @@
 (function () {
   var projects = Array.isArray(window.APP_JUNKY_PROJECTS) ? window.APP_JUNKY_PROJECTS.slice() : [];
+  var osrsModes = Array.isArray(window.APP_JUNKY_OSRS_MODES)
+    ? window.APP_JUNKY_OSRS_MODES.filter(function (mode) {
+      return mode && typeof mode === "object" && !Array.isArray(mode);
+    })
+    : [];
   var grid = document.getElementById("project-grid");
   var totalStat = document.getElementById("stat-total");
   var liveStat = document.getElementById("stat-live");
@@ -8,6 +13,10 @@
   var toolsStat = document.getElementById("stat-tools");
   var latestProject = document.getElementById("latest-project");
   var catalogCount = document.getElementById("catalog-count");
+  var osrsModeGrid = document.getElementById("osrs-mode-grid");
+  var osrsModeCount = document.getElementById("osrs-mode-count");
+  var osrsFamilyCount = document.getElementById("osrs-family-count");
+  var osrsAppHookCount = document.getElementById("osrs-app-hook-count");
   var filterButtons = Array.prototype.slice.call(document.querySelectorAll("[data-filter]"));
 
   projects.sort(function (a, b) {
@@ -92,6 +101,53 @@
     ].join("");
   }
 
+  function createModeCard(mode) {
+    var appIdeas = Array.isArray(mode.appIdeas) ? mode.appIdeas : [];
+
+    return [
+      '<article class="osrs-mode-card" style="--mode-accent: ' + escapeHtml(mode.accent || "#8a5a24") + '">',
+      '  <div class="mode-card-topline">',
+      '    <span class="mode-category">' + escapeHtml(mode.category || "Mode") + "</span>",
+      '    <span class="mode-bookkeeping">' + escapeHtml(mode.bookkeeping || "Medium") + " tracking</span>",
+      "  </div>",
+      '  <h3>' + escapeHtml(mode.name || "Unnamed mode") + "</h3>",
+      '  <p class="mode-summary">' + escapeHtml(mode.summary || "") + "</p>",
+      '  <div class="mode-rule">',
+      "    <strong>Core rule</strong>",
+      "    <p>" + escapeHtml(mode.coreRule || "") + "</p>",
+      "  </div>",
+      '  <div class="mode-footer">',
+      '    <span class="mode-difficulty">' + escapeHtml(mode.difficulty || "Moderate") + "</span>",
+      '    <div class="mode-app-ideas" aria-label="Future app ideas">',
+      appIdeas.map(function (idea) {
+        return "<span>" + escapeHtml(idea) + "</span>";
+      }).join(""),
+      "    </div>",
+      "  </div>",
+      "</article>"
+    ].join("");
+  }
+
+  function renderOsrsModes() {
+    if (!osrsModeGrid) return;
+
+    var families = osrsModes.reduce(function (list, mode) {
+      if (mode.category && list.indexOf(mode.category) === -1) list.push(mode.category);
+      return list;
+    }, []);
+    var appHookCount = osrsModes.reduce(function (count, mode) {
+      return count + (Array.isArray(mode.appIdeas) ? mode.appIdeas.length : 0);
+    }, 0);
+
+    if (osrsModeCount) osrsModeCount.textContent = osrsModes.length;
+    if (osrsFamilyCount) osrsFamilyCount.textContent = families.length;
+    if (osrsAppHookCount) osrsAppHookCount.textContent = appHookCount;
+
+    osrsModeGrid.innerHTML = osrsModes.length
+      ? osrsModes.map(createModeCard).join("")
+      : '<p class="empty-state">No OSRS restriction modes have been added yet.</p>';
+  }
+
   function updateStats() {
     totalStat.textContent = projects.length;
     liveStat.textContent = projects.filter(hasLiveProject).length;
@@ -153,6 +209,7 @@
     });
   });
 
+  renderOsrsModes();
   updateStats();
   render("all");
 })();

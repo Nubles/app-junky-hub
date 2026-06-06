@@ -20,3 +20,22 @@ Add new projects to `window.APP_JUNKY_PROJECTS` with this shape:
 ```
 
 Use `type` values such as `game` or `tool`, and use `status` values such as `Prototype`, `Polish Candidate`, or `Release Ready` so the hub filters continue to work.
+
+## OSRS Restriction Modes
+
+The hub has a dedicated OSRS restriction-mode subsection. Add or edit mode cards in `osrs-modes.js` using this shape:
+
+```js
+{
+  name: "Chunkman",
+  category: "Area",
+  summary: "Unlock the world one map chunk at a time.",
+  coreRule: "Use only content inside unlocked chunks until the next chunk is earned.",
+  difficulty: "Demanding",
+  bookkeeping: "High",
+  appIdeas: ["chunk map tracker", "unlock goal planner"],
+  accent: "#8a5a24"
+}
+```
+
+Keep mode cards focused on playthrough ideas. Build real trackers, planners, and randomizers as separate App Junky prototypes.
