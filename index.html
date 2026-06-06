@@ -51,44 +51,53 @@
         </section>
       </header>
 
-      <section class="osrs-workshop" aria-labelledby="osrs-workshop-title">
-        <div class="osrs-workshop-copy">
-          <span class="section-kicker">OSRS mode workshop</span>
-          <h2 id="osrs-workshop-title">Restrictive playthrough ideas worth building around.</h2>
-          <p>Browse Old School RuneScape challenge modes that could become trackers, planners, rollers, and companion tools.</p>
-        </div>
-        <div class="osrs-stats" aria-label="OSRS mode stats">
-          <article>
-            <strong id="osrs-mode-count">0</strong>
-            <span>Modes</span>
-          </article>
-          <article>
-            <strong id="osrs-family-count">0</strong>
-            <span>Families</span>
-          </article>
-          <article>
-            <strong id="osrs-app-hook-count">0</strong>
-            <span>App hooks</span>
-          </article>
-        </div>
-        <div class="osrs-mode-grid" id="osrs-mode-grid" aria-live="polite"></div>
+      <nav class="hub-tabs" aria-label="Hub sections">
+        <button class="hub-tab is-active" type="button" id="tab-projects" data-hub-tab="projects" aria-controls="panel-projects" aria-selected="true">Projects</button>
+        <button class="hub-tab" type="button" id="tab-osrs" data-hub-tab="osrs" aria-controls="panel-osrs" aria-selected="false">OSRS Modes</button>
+      </nav>
+
+      <section class="hub-panel is-active" id="panel-projects" aria-labelledby="tab-projects" data-hub-panel="projects">
+        <section class="catalog-bar" aria-label="Catalog controls">
+          <div>
+            <h2>Prototype catalog</h2>
+            <p id="catalog-count">Showing all projects.</p>
+          </div>
+          <nav class="filters" aria-label="Project filters">
+            <button class="filter-button is-active" type="button" data-filter="all">All</button>
+            <button class="filter-button" type="button" data-filter="game">Games</button>
+            <button class="filter-button" type="button" data-filter="tool">Tools</button>
+            <button class="filter-button" type="button" data-filter="live">Live</button>
+            <button class="filter-button" type="button" data-filter="needs-repo">Needs repo</button>
+          </nav>
+        </section>
+
+        <section class="project-grid" id="project-grid" aria-live="polite"></section>
       </section>
 
-      <section class="catalog-bar" aria-label="Catalog controls">
-        <div>
-          <h2>Prototype catalog</h2>
-          <p id="catalog-count">Showing all projects.</p>
-        </div>
-        <nav class="filters" aria-label="Project filters">
-          <button class="filter-button is-active" type="button" data-filter="all">All</button>
-          <button class="filter-button" type="button" data-filter="game">Games</button>
-          <button class="filter-button" type="button" data-filter="tool">Tools</button>
-          <button class="filter-button" type="button" data-filter="live">Live</button>
-          <button class="filter-button" type="button" data-filter="needs-repo">Needs repo</button>
-        </nav>
+      <section class="hub-panel" id="panel-osrs" aria-labelledby="tab-osrs" data-hub-panel="osrs" hidden>
+        <section class="osrs-workshop" aria-labelledby="osrs-workshop-title">
+          <div class="osrs-workshop-copy">
+            <span class="section-kicker">OSRS mode workshop</span>
+            <h2 id="osrs-workshop-title">Restrictive playthrough ideas worth building around.</h2>
+            <p>Browse Old School RuneScape challenge modes that could become trackers, planners, rollers, and companion tools.</p>
+          </div>
+          <div class="osrs-stats" aria-label="OSRS mode stats">
+            <article>
+              <strong id="osrs-mode-count">0</strong>
+              <span>Modes</span>
+            </article>
+            <article>
+              <strong id="osrs-family-count">0</strong>
+              <span>Families</span>
+            </article>
+            <article>
+              <strong id="osrs-app-hook-count">0</strong>
+              <span>App hooks</span>
+            </article>
+          </div>
+          <div class="osrs-mode-grid" id="osrs-mode-grid" aria-live="polite"></div>
+        </section>
       </section>
-
-      <section class="project-grid" id="project-grid" aria-live="polite"></section>
     </main>
 
     <script src="./projects.js?v=2026-06-05-polish"></script>

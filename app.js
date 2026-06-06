@@ -17,6 +17,8 @@
   var osrsModeCount = document.getElementById("osrs-mode-count");
   var osrsFamilyCount = document.getElementById("osrs-family-count");
   var osrsAppHookCount = document.getElementById("osrs-app-hook-count");
+  var tabButtons = Array.prototype.slice.call(document.querySelectorAll("[data-hub-tab]"));
+  var tabPanels = Array.prototype.slice.call(document.querySelectorAll("[data-hub-panel]"));
   var filterButtons = Array.prototype.slice.call(document.querySelectorAll("[data-filter]"));
 
   projects.sort(function (a, b) {
@@ -200,6 +202,26 @@
       button.classList.toggle("is-active", button.dataset.filter === filter);
     });
   }
+
+  function setActiveHubTab(tab) {
+    tabButtons.forEach(function (button) {
+      var isActive = button.dataset.hubTab === tab;
+      button.classList.toggle("is-active", isActive);
+      button.setAttribute("aria-selected", isActive ? "true" : "false");
+    });
+
+    tabPanels.forEach(function (panel) {
+      var isActive = panel.dataset.hubPanel === tab;
+      panel.classList.toggle("is-active", isActive);
+      panel.hidden = !isActive;
+    });
+  }
+
+  tabButtons.forEach(function (button) {
+    button.addEventListener("click", function () {
+      setActiveHubTab(button.dataset.hubTab);
+    });
+  });
 
   filterButtons.forEach(function (button) {
     button.addEventListener("click", function () {

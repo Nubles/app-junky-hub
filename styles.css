@@ -175,7 +175,8 @@ h1 {
 
 .action-button.primary,
 .filter-button.is-active,
-.card-link.primary {
+.card-link.primary,
+.hub-tab.is-active {
   border-color: var(--teal);
   background: var(--teal);
   color: #ffffff;
@@ -250,6 +251,42 @@ h1 {
   color: rgba(239, 252, 247, 0.74);
   font-size: 0.82rem;
   font-weight: 800;
+}
+
+.hub-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 18px 0 0;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: var(--shadow);
+  padding: 10px;
+}
+
+.hub-tab {
+  display: inline-flex;
+  min-height: 42px;
+  min-width: 128px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--line-strong);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--ink);
+  cursor: pointer;
+  font-size: 0.92rem;
+  font-weight: 850;
+  padding: 0 14px;
+}
+
+.hub-tab:hover {
+  border-color: var(--teal);
+}
+
+.hub-panel[hidden] {
+  display: none;
 }
 
 .osrs-workshop {
@@ -643,12 +680,14 @@ h1 {
     grid-template-columns: 1fr;
   }
 
-  .filters {
+  .filters,
+  .hub-tabs {
     display: grid;
   }
 
   .filter-button,
-  .action-button {
+  .action-button,
+  .hub-tab {
     width: 100%;
   }
 }
