@@ -67,8 +67,8 @@ window.APP_JUNKY_PROJECTS = [
     summary: "A compact timing game about catching fruit as it drifts through orbital lanes.",
     tags: ["arcade", "timing", "daily game"],
     localPath: "../projects/2026-06-06-orbit-orchard/index.html",
-    repoUrl: "",
-    liveUrl: "",
+    repoUrl: "https://github.com/Nubles/app-junky-orbit-orchard",
+    liveUrl: "https://nubles.github.io/app-junky-orbit-orchard/",
     accent: "#34d399"
   }
 ];
