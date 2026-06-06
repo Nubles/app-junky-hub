@@ -70,5 +70,16 @@ window.APP_JUNKY_PROJECTS = [
     repoUrl: "https://github.com/Nubles/app-junky-orbit-orchard",
     liveUrl: "https://nubles.github.io/app-junky-orbit-orchard/",
     accent: "#34d399"
+  },
+  {
+    title: "Favorbound Companion",
+    date: "2026-06-06",
+    type: "tool",
+    status: "Prototype",
+    summary: "An OSRS restrictive-playthrough companion for faction-bound rules, Favor tracking, duties, and alliance unlocks.",
+    tags: ["osrs", "favorbound", "companion"],
+    repoUrl: "https://github.com/Nubles/OSRS-Favorbound-Companion",
+    liveUrl: "https://nubles.github.io/OSRS-Favorbound-Companion/",
+    accent: "#d59b45"
   }
 ];
