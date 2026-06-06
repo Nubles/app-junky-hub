@@ -81,5 +81,17 @@ window.APP_JUNKY_PROJECTS = [
     repoUrl: "https://github.com/Nubles/OSRS-Favorbound-Companion",
     liveUrl: "https://nubles.github.io/OSRS-Favorbound-Companion/",
     accent: "#d59b45"
+  },
+  {
+    title: "Rail Warden",
+    date: "2026-06-06",
+    type: "game",
+    status: "Prototype",
+    summary: "A compact switch-routing puzzle about guiding colored carts into matching depots.",
+    tags: ["puzzle", "routing", "daily game"],
+    localPath: "../projects/2026-06-06-rail-warden/index.html",
+    repoUrl: "",
+    liveUrl: "",
+    accent: "#38bdf8"
   }
 ];
