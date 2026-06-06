@@ -21,21 +21,21 @@ Add new projects to `window.APP_JUNKY_PROJECTS` with this shape:
 
 Use `type` values such as `game` or `tool`, and use `status` values such as `Prototype`, `Polish Candidate`, or `Release Ready` so the hub filters continue to work.
 
-## OSRS Restriction Modes
+## OSRS Concept Workshop
 
-The hub has a dedicated OSRS restriction-mode subsection. Add or edit mode cards in `osrs-modes.js` using this shape:
+The hub has a dedicated OSRS workshop tab for inventing new restrictive playthrough concepts. Add or edit concept cards in `osrs-modes.js` using this shape:
 
 ```js
 {
-  name: "Chunkman",
-  category: "Area",
-  summary: "Unlock the world one map chunk at a time.",
-  coreRule: "Use only content inside unlocked chunks until the next chunk is earned.",
-  difficulty: "Demanding",
+  name: "Relic Debt",
+  category: "Consequence",
+  summary: "Every major unlock gives the account power now, but creates a debt that must be repaid.",
+  coreRule: "Each upgrade creates a skilling, item, or combat debt that blocks the next major unlock.",
+  difficulty: "Medium prototype",
   bookkeeping: "High",
-  appIdeas: ["chunk map tracker", "unlock goal planner"],
+  appIdeas: ["debt ledger", "unlock cost generator"],
   accent: "#8a5a24"
 }
 ```
 
-Keep mode cards focused on playthrough ideas. Build real trackers, planners, and randomizers as separate App Junky prototypes.
+Keep cards focused on original mode concepts, not existing community formats. Build real trackers, planners, and randomizers as separate App Junky prototypes.

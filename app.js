@@ -115,7 +115,7 @@
       '  <h3>' + escapeHtml(mode.name || "Unnamed mode") + "</h3>",
       '  <p class="mode-summary">' + escapeHtml(mode.summary || "") + "</p>",
       '  <div class="mode-rule">',
-      "    <strong>Core rule</strong>",
+      "    <strong>Concept rule</strong>",
       "    <p>" + escapeHtml(mode.coreRule || "") + "</p>",
       "  </div>",
       '  <div class="mode-footer">',
