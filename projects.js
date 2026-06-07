@@ -105,5 +105,16 @@ window.APP_JUNKY_PROJECTS = [
     repoUrl: "https://github.com/Nubles/app-junky-idea-kiln",
     liveUrl: "https://nubles.github.io/app-junky-idea-kiln/",
     accent: "#2563eb"
+  },
+  {
+    title: "Routebound Companion",
+    date: "2026-06-07",
+    type: "tool",
+    status: "Prototype",
+    summary: "An OSRS restrictive-playthrough companion for route-locked travel, checkpoints, permits, and breach notes.",
+    tags: ["osrs", "routebound", "companion"],
+    repoUrl: "https://github.com/Nubles/OSRS-Routebound",
+    liveUrl: "https://nubles.github.io/OSRS-Routebound/",
+    accent: "#55afba"
   }
 ];
