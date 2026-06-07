@@ -78,5 +78,15 @@ window.APP_JUNKY_OSRS_MODES = [
     bookkeeping: "Medium",
     appIdeas: ["route generator", "checkpoint tracker", "travel permit board"],
     accent: "#3f6f7a"
+  },
+  {
+    name: "Writbound",
+    category: "Mandate",
+    summary: "The account is governed by legal writs that define what actions are lawful until the ruling is satisfied or appealed.",
+    coreRule: "Keep one active writ at all times. Each writ defines the legal region, activity type, forbidden action, and completion clause; anything outside those clauses is illegal until the writ is completed or appealed.",
+    difficulty: "Strong prototype",
+    bookkeeping: "Medium",
+    appIdeas: ["writ generator", "clause tracker", "court seal archive"],
+    accent: "#7c5f32"
   }
 ];
