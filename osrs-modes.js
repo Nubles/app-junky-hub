@@ -68,5 +68,15 @@ window.APP_JUNKY_OSRS_MODES = [
     bookkeeping: "Medium",
     appIdeas: ["faction rule builder", "alliance unlock map", "allowed-content list"],
     accent: "#6f5b2f"
+  },
+  {
+    name: "Routebound",
+    category: "Journey",
+    summary: "The account can only act along approved travel routes, making movement, checkpoints, and temporary permissions the heart of progression.",
+    coreRule: "Pick or roll a route between two OSRS locations. Until that route is completed, training, gathering, questing, and combat are only legal at stops connected to the active route.",
+    difficulty: "Strong prototype",
+    bookkeeping: "Medium",
+    appIdeas: ["route generator", "checkpoint tracker", "travel permit board"],
+    accent: "#3f6f7a"
   }
 ];
