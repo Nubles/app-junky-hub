@@ -93,5 +93,17 @@ window.APP_JUNKY_PROJECTS = [
     repoUrl: "https://github.com/Nubles/app-junky-rail-warden",
     liveUrl: "https://nubles.github.io/app-junky-rail-warden/",
     accent: "#38bdf8"
+  },
+  {
+    title: "Idea Kiln",
+    date: "2026-06-07",
+    type: "tool",
+    status: "Prototype",
+    summary: "A small idea-shaping workspace that scores rough sparks and creates copyable prototype briefs.",
+    tags: ["planning", "ideas", "daily tool"],
+    localPath: "../projects/2026-06-07-idea-kiln/index.html",
+    repoUrl: "",
+    liveUrl: "",
+    accent: "#2563eb"
   }
 ];
