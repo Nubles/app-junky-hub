@@ -102,8 +102,8 @@ window.APP_JUNKY_PROJECTS = [
     summary: "A small idea-shaping workspace that scores rough sparks and creates copyable prototype briefs.",
     tags: ["planning", "ideas", "daily tool"],
     localPath: "../projects/2026-06-07-idea-kiln/index.html",
-    repoUrl: "",
-    liveUrl: "",
+    repoUrl: "https://github.com/Nubles/app-junky-idea-kiln",
+    liveUrl: "https://nubles.github.io/app-junky-idea-kiln/",
     accent: "#2563eb"
   }
 ];
