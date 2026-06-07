@@ -125,8 +125,8 @@ window.APP_JUNKY_PROJECTS = [
     summary: "A compact lane-and-timing game about ferrying parcels through shifting tide currents.",
     tags: ["arcade", "timing", "daily game"],
     localPath: "../projects/2026-06-07-tide-courier/index.html",
-    repoUrl: "",
-    liveUrl: "",
+    repoUrl: "https://github.com/Nubles/app-junky-tide-courier",
+    liveUrl: "https://nubles.github.io/app-junky-tide-courier/",
     accent: "#0891b2"
   }
 ];
