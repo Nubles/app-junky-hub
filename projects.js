@@ -116,5 +116,17 @@ window.APP_JUNKY_PROJECTS = [
     repoUrl: "https://github.com/Nubles/OSRS-Routebound",
     liveUrl: "https://nubles.github.io/OSRS-Routebound/",
     accent: "#55afba"
+  },
+  {
+    title: "Tide Courier",
+    date: "2026-06-07",
+    type: "game",
+    status: "Prototype",
+    summary: "A compact lane-and-timing game about ferrying parcels through shifting tide currents.",
+    tags: ["arcade", "timing", "daily game"],
+    localPath: "../projects/2026-06-07-tide-courier/index.html",
+    repoUrl: "",
+    liveUrl: "",
+    accent: "#0891b2"
   }
 ];
