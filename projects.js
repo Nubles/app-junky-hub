@@ -90,8 +90,8 @@ window.APP_JUNKY_PROJECTS = [
     summary: "A compact switch-routing puzzle about guiding colored carts into matching depots.",
     tags: ["puzzle", "routing", "daily game"],
     localPath: "../projects/2026-06-06-rail-warden/index.html",
-    repoUrl: "",
-    liveUrl: "",
+    repoUrl: "https://github.com/Nubles/app-junky-rail-warden",
+    liveUrl: "https://nubles.github.io/app-junky-rail-warden/",
     accent: "#38bdf8"
   }
 ];
