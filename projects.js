@@ -118,6 +118,17 @@ window.APP_JUNKY_PROJECTS = [
     accent: "#55afba"
   },
   {
+    title: "Burialbound Companion",
+    date: "2026-06-08",
+    type: "tool",
+    status: "Prototype",
+    summary: "An OSRS restrictive-playthrough companion for burial rites, offering checklists, unlock approvals, breach notes, and memorial archives.",
+    tags: ["osrs", "burialbound", "companion"],
+    repoUrl: "https://github.com/Nubles/OSRS-Burialbound",
+    liveUrl: "https://nubles.github.io/OSRS-Burialbound/",
+    accent: "#6b4f63"
+  },
+  {
     title: "Tide Courier",
     date: "2026-06-07",
     type: "game",
