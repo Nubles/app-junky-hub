@@ -98,5 +98,15 @@ window.APP_JUNKY_OSRS_MODES = [
     bookkeeping: "Medium-high",
     appIdeas: ["rite ledger", "offering checklist", "memorial archive"],
     accent: "#6b4f63"
+  },
+  {
+    name: "Debtbond",
+    category: "Consequence",
+    summary: "Every major unlock becomes a debt that must be repaid before the account can chase its next power spike.",
+    coreRule: "When a major unlock is claimed, the account becomes indebted through a themed repayment task such as kills, skilling resources, clue completions, minigame rounds, GP sacrifice, or atonement work. No new major unlock is legal until the active debt is paid.",
+    difficulty: "Strong prototype",
+    bookkeeping: "Medium",
+    appIdeas: ["debt book", "unlock price tiers", "repayment ledger"],
+    accent: "#8b673c"
   }
 ];
