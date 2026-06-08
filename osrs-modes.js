@@ -88,5 +88,15 @@ window.APP_JUNKY_OSRS_MODES = [
     bookkeeping: "Medium",
     appIdeas: ["writ generator", "clause tracker", "court seal archive"],
     accent: "#7c5f32"
+  },
+  {
+    name: "Burialbound",
+    category: "Rite",
+    summary: "Progress is unlocked through memorial rites for defeated enemies, completed quests, retired gear, and surpassed account milestones.",
+    coreRule: "Major unlocks require a burial rite tied to the thing being replaced or surpassed. Until the rite is logged, the new item, boss, region, or activity remains illegal.",
+    difficulty: "Strong prototype",
+    bookkeeping: "Medium-high",
+    appIdeas: ["rite ledger", "offering checklist", "memorial archive"],
+    accent: "#6b4f63"
   }
 ];
