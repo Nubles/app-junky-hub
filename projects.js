@@ -137,8 +137,8 @@ window.APP_JUNKY_PROJECTS = [
     summary: "A compact bill splitter for shared items, tax, tip, per-person totals, and copyable settlement notes.",
     tags: ["finance", "splitter", "daily tool"],
     localPath: "../projects/2026-06-08-share-ledger/index.html",
-    repoUrl: "",
-    liveUrl: "",
+    repoUrl: "https://github.com/Nubles/app-junky-share-ledger",
+    liveUrl: "https://nubles.github.io/app-junky-share-ledger/",
     accent: "#0f766e"
   }
 ];
