@@ -128,5 +128,17 @@ window.APP_JUNKY_PROJECTS = [
     repoUrl: "https://github.com/Nubles/app-junky-tide-courier",
     liveUrl: "https://nubles.github.io/app-junky-tide-courier/",
     accent: "#0891b2"
+  },
+  {
+    title: "Share Ledger",
+    date: "2026-06-08",
+    type: "tool",
+    status: "Prototype",
+    summary: "A compact bill splitter for shared items, tax, tip, per-person totals, and copyable settlement notes.",
+    tags: ["finance", "splitter", "daily tool"],
+    localPath: "../projects/2026-06-08-share-ledger/index.html",
+    repoUrl: "",
+    liveUrl: "",
+    accent: "#0f766e"
   }
 ];
