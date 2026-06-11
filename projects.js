@@ -129,6 +129,17 @@ window.APP_JUNKY_PROJECTS = [
     accent: "#6b4f63"
   },
   {
+    title: "Tollbound Companion",
+    date: "2026-06-11",
+    type: "tool",
+    status: "Prototype",
+    summary: "An OSRS restrictive-playthrough companion for recurring tolls, active permits, suspended unlocks, payment receipts, and breach tracking.",
+    tags: ["osrs", "tollbound", "companion"],
+    repoUrl: "https://github.com/Nubles/OSRS-Tollbound",
+    liveUrl: "https://nubles.github.io/OSRS-Tollbound/",
+    accent: "#9a7040"
+  },
+  {
     title: "Tide Courier",
     date: "2026-06-07",
     type: "game",
