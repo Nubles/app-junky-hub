@@ -108,5 +108,15 @@ window.APP_JUNKY_OSRS_MODES = [
     bookkeeping: "Medium",
     appIdeas: ["debt book", "unlock price tiers", "repayment ledger"],
     accent: "#8b673c"
+  },
+  {
+    name: "Tollbound",
+    category: "Economy",
+    summary: "Every new convenience has a price, and the account must keep paying tolls to keep unlocked power legal.",
+    coreRule: "Major unlocks are legal only while their toll is paid. Tolls can be GP sacrifice, resource stacks, clue completions, boss kills, or skilling chores; if a toll expires, the unlock becomes suspended until renewed.",
+    difficulty: "Strong prototype",
+    bookkeeping: "Medium-high",
+    appIdeas: ["toll ledger", "expiry tracker", "suspended unlock board"],
+    accent: "#9a7040"
   }
 ];
