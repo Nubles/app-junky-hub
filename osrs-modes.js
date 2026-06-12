@@ -118,5 +118,15 @@ window.APP_JUNKY_OSRS_MODES = [
     bookkeeping: "Medium-high",
     appIdeas: ["toll ledger", "expiry tracker", "suspended unlock board"],
     accent: "#9a7040"
+  },
+  {
+    name: "Permitbound",
+    category: "Permission",
+    summary: "Major account features are illegal until the Permit Office assigns and approves a practical requirement.",
+    coreRule: "Before using a new boss, region, teleport network, gear tier, prayer tier, activity, questline, money-maker, or skilling method, the account must file a permit and complete the generated approval conditions.",
+    difficulty: "Strong prototype",
+    bookkeeping: "Medium",
+    appIdeas: ["permit office", "approval checklist", "legal unlock archive"],
+    accent: "#4f9f7a"
   }
 ];

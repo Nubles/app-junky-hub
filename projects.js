@@ -140,6 +140,17 @@ window.APP_JUNKY_PROJECTS = [
     accent: "#9a7040"
   },
   {
+    title: "Permitbound Companion",
+    date: "2026-06-12",
+    type: "tool",
+    status: "Prototype",
+    summary: "An OSRS restrictive-playthrough companion for filing unlock permits, proving requirements, approving legal content, and tracking breaches.",
+    tags: ["osrs", "permitbound", "companion"],
+    repoUrl: "https://github.com/Nubles/OSRS-Permitbound",
+    liveUrl: "https://nubles.github.io/OSRS-Permitbound/",
+    accent: "#4f9f7a"
+  },
+  {
     title: "Tide Courier",
     date: "2026-06-07",
     type: "game",
