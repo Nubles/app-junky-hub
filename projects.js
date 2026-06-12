@@ -173,5 +173,17 @@ window.APP_JUNKY_PROJECTS = [
     repoUrl: "https://github.com/Nubles/app-junky-share-ledger",
     liveUrl: "https://nubles.github.io/app-junky-share-ledger/",
     accent: "#0f766e"
+  },
+  {
+    title: "Nebula Net",
+    date: "2026-06-12",
+    type: "game",
+    status: "Prototype",
+    summary: "A compact arcade game about sweeping an energy net through calm star motes while avoiding unstable sparks.",
+    tags: ["arcade", "canvas", "daily game"],
+    localPath: "../projects/2026-06-12-nebula-net/index.html",
+    repoUrl: "",
+    liveUrl: "",
+    accent: "#7c3aed"
   }
 ];
