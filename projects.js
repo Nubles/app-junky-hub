@@ -185,5 +185,17 @@ window.APP_JUNKY_PROJECTS = [
     repoUrl: "https://github.com/Nubles/app-junky-nebula-net",
     liveUrl: "https://nubles.github.io/app-junky-nebula-net/",
     accent: "#7c3aed"
+  },
+  {
+    title: "Chore Charter",
+    date: "2026-06-13",
+    type: "tool",
+    status: "Prototype",
+    summary: "A household rota builder that balances chores by frequency and effort, then creates a copyable weekly plan.",
+    tags: ["home", "planning", "daily tool"],
+    localPath: "../projects/2026-06-13-chore-charter/index.html",
+    repoUrl: "",
+    liveUrl: "",
+    accent: "#0f766e"
   }
 ];
