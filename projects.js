@@ -151,6 +151,17 @@ window.APP_JUNKY_PROJECTS = [
     accent: "#4f9f7a"
   },
   {
+    title: "Breadcrumbman Atlas",
+    date: "2026-06-13",
+    type: "tool",
+    status: "Flagship",
+    summary: "A wiki-graph OSRS snowball companion where one tiny seed grows into a legal web of quests, regions, items, transport, bosses, raids, and endgame capstones.",
+    tags: ["osrs", "breadcrumbman", "atlas", "companion"],
+    repoUrl: "https://github.com/Nubles/OSRS-Breadcrumbman",
+    liveUrl: "https://nubles.github.io/OSRS-Breadcrumbman/",
+    accent: "#6bd39a"
+  },
+  {
     title: "Tide Courier",
     date: "2026-06-07",
     type: "game",

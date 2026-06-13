@@ -128,5 +128,15 @@ window.APP_JUNKY_OSRS_MODES = [
     bookkeeping: "Medium",
     appIdeas: ["permit office", "approval checklist", "legal unlock archive"],
     accent: "#4f9f7a"
+  },
+  {
+    name: "Breadcrumbman",
+    category: "Wiki Snowball",
+    summary: "The account starts from one tiny OSRS Wiki-style seed and expands through linked pages into a visible legal progression web.",
+    coreRule: "Choose or roll a seed such as Lumbridge, Goblin, Cook's Assistant, Bronze dagger, or Shrimp. Only revealed linked nodes are legal. Completing a node reveals connected quests, items, monsters, shops, regions, transport, bosses, clues, raids, diaries, and capstone routes.",
+    difficulty: "Flagship app",
+    bookkeeping: "Medium-high",
+    appIdeas: ["interactive atlas", "breadcrumb reveal engine", "route-to-goal planner", "dead-end rescue system"],
+    accent: "#6bd39a"
   }
 ];
