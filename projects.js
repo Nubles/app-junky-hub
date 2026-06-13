@@ -194,8 +194,8 @@ window.APP_JUNKY_PROJECTS = [
     summary: "A household rota builder that balances chores by frequency and effort, then creates a copyable weekly plan.",
     tags: ["home", "planning", "daily tool"],
     localPath: "../projects/2026-06-13-chore-charter/index.html",
-    repoUrl: "",
-    liveUrl: "",
+    repoUrl: "https://github.com/Nubles/app-junky-chore-charter",
+    liveUrl: "https://nubles.github.io/app-junky-chore-charter/",
     accent: "#0f766e"
   }
 ];
