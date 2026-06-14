@@ -208,5 +208,17 @@ window.APP_JUNKY_PROJECTS = [
     repoUrl: "https://github.com/Nubles/app-junky-chore-charter",
     liveUrl: "https://nubles.github.io/app-junky-chore-charter/",
     accent: "#0f766e"
+  },
+  {
+    title: "Lantern Lanes",
+    date: "2026-06-14",
+    type: "game",
+    status: "Prototype",
+    summary: "A compact reaction puzzle game about tuning colored lane gates before dusk closes in.",
+    tags: ["puzzle", "reaction", "daily game"],
+    localPath: "../projects/2026-06-14-lantern-lanes/index.html",
+    repoUrl: "",
+    liveUrl: "",
+    accent: "#facc15"
   }
 ];
