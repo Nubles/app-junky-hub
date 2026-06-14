@@ -217,8 +217,8 @@ window.APP_JUNKY_PROJECTS = [
     summary: "A compact reaction puzzle game about tuning colored lane gates before dusk closes in.",
     tags: ["puzzle", "reaction", "daily game"],
     localPath: "../projects/2026-06-14-lantern-lanes/index.html",
-    repoUrl: "",
-    liveUrl: "",
+    repoUrl: "https://github.com/Nubles/app-junky-lantern-lanes",
+    liveUrl: "https://nubles.github.io/app-junky-lantern-lanes/",
     accent: "#facc15"
   }
 ];
